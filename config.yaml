@@ -6,7 +6,7 @@ multianimalproject: false
 identity:
 
     # Project path (change when moving around)
-project_path: /gpfs/scratch/acho26/deeplabcut/summerUTRA-angelina-2023-06-11
+project_path: /content/cloned-UTRA
 
     # Annotation data set configuration (and individual video cropping parameters)
 video_sets:
