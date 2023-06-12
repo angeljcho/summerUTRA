@@ -1,0 +1,67 @@
+    # Project definitions (do not edit)
+Task: summerUTRA
+scorer: angelina
+date: Jun11
+multianimalproject: false
+identity:
+
+    # Project path (change when moving around)
+project_path: /gpfs/scratch/acho26/deeplabcut/summerUTRA-angelina-2023-06-11
+
+    # Annotation data set configuration (and individual video cropping parameters)
+video_sets:
+  /gpfs/scratch/acho26/deeplabcut/4-06-2023_geoG4_breath4.avi:
+    crop: 0, 1024, 0, 1024
+  /gpfs/scratch/acho26/deeplabcut/5-04-2023_geoG3_winnow2.avi:
+    crop: 0, 1024, 0, 1024
+  /gpfs/scratch/acho26/deeplabcut/2-07-2023_geoF1_winnow1.avi:
+    crop: 0, 1024, 0, 1024
+  /gpfs/scratch/acho26/deeplabcut/2-07-2023_geoF1_winnow2.avi:
+    crop: 0, 1024, 0, 1024
+  /gpfs/scratch/acho26/deeplabcut/3-02-2023_geoG1_winnow1.avi:
+    crop: 0, 1024, 0, 1024
+bodyparts:
+- maxilla_anterior
+- premaxilla_tip
+- dentary_tip
+- hyoid
+- fin_base
+- operculum
+- eye_top
+- eye_right
+- eye_bottom
+- eye_left
+start: 0
+stop: 1
+numframes2pick: 25
+
+    # Plotting configuration
+skeleton:
+skeleton_color: black
+pcutoff: 0.6
+dotsize: 12
+alphavalue: 0.7
+colormap: rainbow
+
+    # Training,Evaluation and Analysis configuration
+TrainingFraction:
+- 0.95
+iteration: 0
+default_net_type: resnet_50
+default_augmenter: default
+snapshotindex: -1
+batch_size: 8
+
+    # Cropping Parameters (for analysis and outlier frame detection)
+cropping: false
+    #if cropping is true for analysis, then set the values here:
+x1: 0
+x2: 640
+y1: 277
+y2: 624
+
+    # Refinement configuration (parameters from annotation dataset configuration also relevant in this stage)
+corner2move2:
+- 50
+- 50
+move2corner: true
