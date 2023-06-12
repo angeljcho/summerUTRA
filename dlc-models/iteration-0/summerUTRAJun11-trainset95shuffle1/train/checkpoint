@@ -1,6 +1,0 @@
-model_checkpoint_path: "/gpfs/scratch/acho26/deeplabcut/summerUTRA-angelina-2023-06-11/dlc-models/iteration-0/summerUTRAJun11-trainset95shuffle1/train/snapshot-250000"
-all_model_checkpoint_paths: "/gpfs/scratch/acho26/deeplabcut/summerUTRA-angelina-2023-06-11/dlc-models/iteration-0/summerUTRAJun11-trainset95shuffle1/train/snapshot-180000"
-all_model_checkpoint_paths: "/gpfs/scratch/acho26/deeplabcut/summerUTRA-angelina-2023-06-11/dlc-models/iteration-0/summerUTRAJun11-trainset95shuffle1/train/snapshot-200000"
-all_model_checkpoint_paths: "/gpfs/scratch/acho26/deeplabcut/summerUTRA-angelina-2023-06-11/dlc-models/iteration-0/summerUTRAJun11-trainset95shuffle1/train/snapshot-220000"
-all_model_checkpoint_paths: "/gpfs/scratch/acho26/deeplabcut/summerUTRA-angelina-2023-06-11/dlc-models/iteration-0/summerUTRAJun11-trainset95shuffle1/train/snapshot-240000"
-all_model_checkpoint_paths: "/gpfs/scratch/acho26/deeplabcut/summerUTRA-angelina-2023-06-11/dlc-models/iteration-0/summerUTRAJun11-trainset95shuffle1/train/snapshot-250000"
